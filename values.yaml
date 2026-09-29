@@ -1,0 +1,14 @@
+environment: base
+
+replicaCount: 1
+
+image:
+  repository: nginx
+  tag: "1.25"
+
+resources:
+  requests:
+    cpu: 100m
+    memory: 128Mi
+
+logLevel: info
