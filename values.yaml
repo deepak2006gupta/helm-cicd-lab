@@ -3,8 +3,8 @@ environment: base
 replicaCount: 1
 
 image:
-  repository: nginx
-  tag: "1.25"
+  repository: ghcr.io/deepak2006gupta/helm-cicd-lab
+  tag: "latest"
 
 resources:
   requests:
