@@ -30,7 +30,7 @@ jobs:
           helm upgrade --install demo . \
             --set image.repository=ghcr.io/${{ github.repository_owner }}/helm-cicd-lab \
             --set image.tag=latest \
-            --atomic --wait --timeout 120s
+            --wait --timeout 120s
 
       - name: Smoke test
         run: |
